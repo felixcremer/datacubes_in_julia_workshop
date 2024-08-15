@@ -3,7 +3,7 @@ project:
 execute:
   freeze: auto
 website:
-  title: "Big Data from Space 2023 Julia Tutorial"
+  title: "Geospatial data cubes in Julia workshop"
   navbar:
     right:
       - href: index.qmd
