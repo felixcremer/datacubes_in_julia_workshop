@@ -1,0 +1,14 @@
+---
+title: Raster data handling
+---
+
+## 
+
+## Loading Zarr data from the Web
+
+The data that we are working with is often available in the  [Zarr](zarr.dev) format. 
+The Zarr format can be loaded from the cloud or from local computers. 
+
+## Combining multiple Tiff files into a data cube
+
+## 

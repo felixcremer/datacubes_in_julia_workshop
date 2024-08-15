@@ -1,0 +1,37 @@
+project:
+  type: website
+execute:
+  freeze: auto
+website:
+  title: "Big Data from Space 2023 Julia Tutorial"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+    - section: "Julia Introduction"
+      contents:
+      - intro.qmd
+      - intro-repl.qmd
+      - href: intro-pkg.qmd
+        text: Package Manager
+    - section: "Julia Geo Ecosystem"
+      contents:
+      - vectordata.qmd
+      - rasterdata.qmd
+    - section: "Raster data handling"
+      contents:
+      - chunking.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

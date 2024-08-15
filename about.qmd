@@ -1,0 +1,6 @@
+---
+title: "About"
+---
+
+This site is the tutorial for raster data handling in Julia. 
+This tutorial is going to be held at the Big Data from Space (BiDS) 2023 conference in Vienna.

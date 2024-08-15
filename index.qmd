@@ -1,0 +1,55 @@
+---
+title: "Big Data from Space 2023 Julia Tutorial"
+---
+
+
+This is the website of the "Large Raster data handling with Julia tutorial" at the BiDS 2023 conference.
+
+In this tutorial we will explore how to analyse raster data which is larger than RAM.
+
+## Preparation
+
+To participate in the hands-on parts of the tutorial please install Julia on your device. 
+We recommend to use the [juliaup](https://github.com/JuliaLang/juliaup) installer for julia.
+
+
+::: {.panel-tabset}
+
+## Windows 
+
+You can install juliaup via the windows store or by executing
+
+```
+winget install julia -s msstore
+```
+
+## Mac or Linux
+To install juliaup in Linux or Mac execute the following in a shell
+
+```sh
+curl -fsSL https://install.julialang.org | sh
+``` 
+
+:::
+
+## Schedule
+
+| Time | Topic |
+|:------|:---------|
+| 14:00 |  Introduction to Julia | 
+| 14:30 |  Julia Geo Ecosystem |
+| 15:00 |  Raster Data Loading |
+| 15:30 |  Coffee Break 
+| 15:50 |  Raster data analysis
+| 16:10 | Hands-On Challenge
+
+
+This timeline is purely approximative and given for indication purpose only. We will adjust depending on the audience. There will be additional breaks (5 minutes) regurlarly and time for questions during the workshop.
+
+
+
+--- 
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

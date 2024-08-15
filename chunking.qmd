@@ -1,0 +1,14 @@
+---
+title: "Chunking: Why and how?"
+---
+
+## What is chunking?
+
+## How to deal with chunked data?
+
+## What is the influence of chunking on my analysis?
+
+
+### Further reading
+
+See the chunking tutorial at [Linas Tutorial] for an in depth explanation of chunking and to see the differences of different chunking regimes.

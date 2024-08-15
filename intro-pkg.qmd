@@ -1,0 +1,10 @@
+---
+title: Introduction to the Package Manager
+---
+
+## Activating your environment
+
+## Package handling
+
+
+### Further reading
