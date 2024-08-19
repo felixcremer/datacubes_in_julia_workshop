@@ -67,7 +67,3 @@ julia -e 'using Pkg;Pkg.activate(".");Pkg.resolve();Pkg.precompile()'
 
 
 --- 
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
