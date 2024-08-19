@@ -45,7 +45,7 @@ For the workshop we are going to use the environment that is available of the ex
 You can download the Project.toml file from https://github.com/JuliaDataCubes/datacubes_in_julia_workshop/blob/main/examples/Project.toml manually and save it in a new folder.
 Then change in a terminal to this folder.
 
-# Use git
+## Use git
 
 Use git to download the whole workshop material.
 
