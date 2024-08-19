@@ -37,18 +37,32 @@ curl -fsSL https://install.julialang.org | sh
 
 ### Instantiation of an initial environment 
 For the workshop we are going to use the environment that is available of the examples folder.
-You can instantiate this environment by downloading the Project.toml file from https://github.com/JuliaDataCubes/datacubes_in_julia_workshop/blob/main/examples/Project.toml and saving it in a new folder.
-Then we can start julia in this folder from the terminal and switch to the package mode by typing `]`.
 
-We then have to first switch to the environment in the current folder by doing
-```
-activate .
-```
+::: {.panel-tabset}
 
-And then we can download all dependencies by instantiating the environment via this command:
+## Manual download
+
+You can download the Project.toml file from https://github.com/JuliaDataCubes/datacubes_in_julia_workshop/blob/main/examples/Project.toml manually and save it in a new folder.
+Then change in a terminal to this folder.
+
+# Use git
+
+Use git to download the whole workshop material.
+
 ```
-instantiate
+git clone https://github.com/JuliaDataCubes/datacubes_in_julia_workshop/
 ```
+Change to the examples folder in the datacubes_in_julia_workshop folder.
+
+:::
+
+
+
+Now that we have the Project.toml file downloaded we can run the following line in the terminal from the folder in which the Project.toml is located.
+
+```
+julia -e 'using Pkg;Pkg.activate(".");Pkg.resolve();Pkg.precompile()'
+``` 
 
 
 
