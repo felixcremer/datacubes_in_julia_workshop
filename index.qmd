@@ -64,6 +64,29 @@ Now that we have the Project.toml file downloaded we can run the following line 
 julia -e 'using Pkg;Pkg.activate(".");Pkg.resolve();Pkg.precompile()'
 ``` 
 
+# Timeline
 
+This is a rough time line of the workshop hold on two half days. 
+
+## Day 1 
+
+| Time | Topic |
+|:------|:---------|
+| 9:00 |  Introduction to Datacube analysis | 
+| 9:30 |  Introduction to Julia |
+| 10:30 |  Break |
+| 10:50 |  Exercise time series analysis + plotting | 
+
+
+## Day 2
+
+| Time | Topic |
+|:------|:---------|
+| 9:00 |  Introduction to YAXArrays.jl | 
+| 9:45 |  Exercise YAXArrays |
+| 10:15 |  Break |
+| 10:30 |  Excursion datacubes in python | 
+| 10:45 |  Data preparation | 
+| 11:15 |  PyramidScheme.jl | 
 
 --- 
