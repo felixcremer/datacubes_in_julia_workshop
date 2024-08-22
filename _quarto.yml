@@ -13,6 +13,7 @@ website:
     style: "docked"
     search: true
     contents:
+    - intro_ndarrays.qmd
     - section: "Julia Introduction"
       contents:
       - intro.qmd
