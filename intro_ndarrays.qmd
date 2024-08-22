@@ -1,0 +1,45 @@
+---
+engine: julia
+title: Basics of multidimensional data analysis
+author: "Felix Cremer, Fabian Gans"
+format: 
+    revealjs:
+        logo: images/logo2_mpi_nfdi4earth.png
+
+execute:
+    echo: true
+---
+
+# Data structures
+
+- ESDL data cube image
+
+# Data formats
+
+- Geotiff
+- Zarr
+- NetCDF
+
+
+# Chunking
+
+::: {#fig-chunking layout-ncol=2}
+
+![Spatial chunking](images/img1.png){alt="Representation of the spatial chunking where every map is put together in memory."}
+
+![Box chunking](images/img2.png){alt="Representation of a box chunking where yellow boxes indicate that both temporal and spatial neighbours are close together in memory."}
+
+Different chunking structures
+:::
+
+# Concept of multidimensional array storage
+
+## Contrast to databases
+
+# Pyramids
+
+```{julia}
+
+```
+
+
