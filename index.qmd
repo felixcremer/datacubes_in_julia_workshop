@@ -75,7 +75,7 @@ This is a rough time line of the workshop hold on two half days.
 | 9:00 |  Introduction to Datacube analysis | 
 | 9:30 |  Introduction to Julia |
 | 10:30 |  Break |
-| 10:50 |  Exercise time series analysis + plotting | 
+| 10:50 |  Exercise: Time series analysis + plotting | 
 
 
 ## Day 2
@@ -83,9 +83,9 @@ This is a rough time line of the workshop hold on two half days.
 | Time | Topic |
 |:------|:---------|
 | 9:00 |  Introduction to YAXArrays.jl | 
-| 9:45 |  Exercise YAXArrays |
+| 9:45 |  Exercise: YAXArrays |
 | 10:15 |  Break |
-| 10:30 |  Excursion datacubes in python | 
+| 10:30 |  Excursion: Datacubes in python | 
 | 10:45 |  Data preparation | 
 | 11:15 |  PyramidScheme.jl | 
 
