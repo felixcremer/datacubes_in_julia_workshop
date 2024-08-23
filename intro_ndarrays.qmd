@@ -32,6 +32,8 @@ execute:
 Different chunking structures
 :::
 
+# Datacube analysis
+
 # Concept of multidimensional array storage
 
 ## Contrast to databases
@@ -39,7 +41,17 @@ Different chunking structures
 # Pyramids
 
 ```{julia}
-
+#| eval: false
+using PyramidScheme
+using Rasters, RasterDataSources
+using ArchGDAL
+rastas = Raster(CHELSA{Climate},:tas, lazy=true, month=1)
+rastasscale = rastas.metadata["scale"] .* rastas .+ rastas.metadata["offset"]
+pyrtas = Pyramid(rastasscale)
+using GLMakie
+plot(pyrtas, colormap=Reverse(:RdYlBu))
 ```
 
+## Pyramid example
+{{< video images/zoom.mp4 >}}
 
