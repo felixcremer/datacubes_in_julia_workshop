@@ -1,0 +1,18 @@
+---
+engine: julia
+title: Exercise YAXArrays
+author: "Felix Cremer, Fabian Gans"
+format: 
+    revealjs:
+        logo: images/logo2_mpi_nfdi4earth.png
+
+execute:
+    echo: true
+---
+
+# Aim of the exercise session
+
+- apply function from time series exercise on a datacube
+
+# Dataset
+

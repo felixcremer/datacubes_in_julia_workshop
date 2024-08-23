@@ -1,0 +1,28 @@
+---
+title: "Introduction to Julia"
+---
+
+# Why Julia?
+
+# Basics of Julia programming
+
+## Variables
+
+## Data types
+
+## Loops
+
+## Functions
+
+## Multiple Dispatch
+
+# Package management
+
+# Functional Programming
+
+## Passing functions to functions
+
+# Data manipulation
+
+# Allocations
+

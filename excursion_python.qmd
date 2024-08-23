@@ -1,0 +1,14 @@
+---
+title: Excursion: Data cubes in python
+author: "Fabian Gans, Felix Cremer"
+format: 
+    revealjs:
+        logo: images/logo2_mpi_nfdi4earth.png
+
+execute:
+    echo: true
+---
+
+# XArray
+
+# Differences to Julia

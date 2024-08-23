@@ -1,0 +1,20 @@
+---
+engine: julia
+title: Exercise time series analysis and plotting
+author: "Felix Cremer, Fabian Gans"
+format: 
+    revealjs:
+        logo: images/logo2_mpi_nfdi4earth.png
+
+execute:
+    echo: true
+---
+
+# Aim of the exercise session
+
+# Dataset
+
+# Possible time series analyses
+
+# Plotting
+
