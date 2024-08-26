@@ -16,5 +16,14 @@ execute:
 
 # Possible time series analyses
 
+- Dryness Index moving average tp - pet
+- mean seasonal cycle 
+- median seasonal cycle
+- Leap years
+- FFT
+- RQA
+- Histogram per decade
+
+
 # Plotting
 
