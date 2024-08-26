@@ -1,5 +1,5 @@
 ---
-title: Excursion: Data cubes in python
+title: Data preparation
 author: "Fabian Gans, Felix Cremer"
 format: 
     revealjs:
