@@ -2,9 +2,15 @@
 engine: julia
 title: Basics of multidimensional data analysis
 author: "Felix Cremer, Fabian Gans"
+institute: "Max Planck Institute for Biogeochemistry 
+
+
+[NFDI4Earth Advancing Tools](https://nfdi4earth.de/2facilitate/advancing-tools)"
 format: 
     revealjs:
         logo: images/logo2_mpi_nfdi4earth.png
+        number-sections: false
+        footer: "[Datacubes in Julia](https://juliadatacubes.github.io/datacubes_in_julia_workshop/intro_ndarrays.html#/title-slide)"
 
 execute:
     echo: true
