@@ -16,3 +16,22 @@ execute:
 
 # Dataset
 
+- Using ERA5 data for Europe from 2014 to 2022
+
+## Dataset download
+
+```{julia}
+using YAXArrays
+using Zarr
+using DiskArrays
+era5url = "https://s3.bgc-jena.mpg.de:9000/deepextremes/v3/ERA5Cube.zarr"
+era5 = Cube(era5url)
+timedim = dimnum(era5, Ti)
+chunkinds =ones(Int64, length(size(era5)))
+chunks = eachchunk(era5)
+chunkinds[timedim] = size(chunks, timedim)-1
+lastchunk = chunks[chunkinds...]
+timestart = first(dims(era5,Ti)[lastchunk[timedim]])
+timeend = last(dims(era5,Ti))
+sub = era5[Ti=timestart..timeend, longitude=0..14.76,latitude=30.1..60]
+```
