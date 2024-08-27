@@ -1,0 +1,10 @@
+---
+title: "Excursion: Pyramids for handling large scale data"
+author: "Fabian Gans, Felix Cremer"
+format: 
+    revealjs:
+        logo: images/logo2_mpi_nfdi4earth.png
+
+execute:
+    echo: true
+---
